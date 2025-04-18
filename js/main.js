@@ -69,9 +69,6 @@ $(function () {
     case "jp":
       setLanguage("jp");
       break
-    case "de":
-      setLanguage("de");
-      break
     default:
       setLanguage(systemLang);
   }
@@ -88,9 +85,6 @@ $(function () {
   });
   $("#jpBtn").bind("click", function () {
     setLanguage("jp");
-  });
-  $("#deBtn").bind("click", function () {
-    setLanguage("de");
   });
 });
 
